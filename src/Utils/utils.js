@@ -59,3 +59,5 @@ const exportToCSV = (data = [], filename = 'data.csv') => {
   link.click();
   document.body.removeChild(link);
 };
+
+export {isValidEmail, isValidPhone, isValidWebsite, exportToCSV}

@@ -2,7 +2,7 @@
 
 A dynamic CRM table interface built using **React**, **Redux**, and **Tailwind CSS**. This project supports drag-and-drop row ordering, inline editing, dynamic column management, CSV export, and advanced filtering.
 
-🔗 **Live Demo:** [https://your-deployment-url.com](https://your-deployment-url.com)
+🔗 **Live Demo:** [https://bizmorphic-assignment.netlify.app/](https://bizmorphic-assignment.netlify.app/)
 
 
 

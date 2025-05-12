@@ -163,7 +163,12 @@ const CRMTable = ({ data, setData, onReorder }) => {
         <Table stickyHeader>
           <TableHead>
             <TableRow>
-              <TableCell style={{ color: colors[theme]?.textSecondary }} />
+              <TableCell
+                style={{
+                  backgroundColor: colors[theme]?.surface,
+                  borderColor: colors[theme]?.border,
+                }}
+              />
               {headers.map((header) =>
                 cols.includes(header) ? (
                   <TableCell
