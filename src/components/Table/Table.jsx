@@ -346,7 +346,7 @@ const CRMTable = ({ data, setData, onReorder }) => {
                   )}
 
                   {cols.includes("Role") && (
-                    <TableCell style={{ ...rowStyle, minWidth: "80px" }}>
+                    <TableCell style={{ ...rowStyle, minWidth: "140px" }}>
                       {isEditing ? (
                         <Dropdown
                           value={editedRow.role}
